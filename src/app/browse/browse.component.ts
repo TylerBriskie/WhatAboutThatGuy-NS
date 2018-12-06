@@ -10,11 +10,13 @@ import * as app from "tns-core-modules/application";
 export class BrowseComponent implements OnInit {
 
     constructor() {
-        // Use the component constructor to inject providers.
+        console.log('getting actor...')
+        const apiKey = 'e319caa6';
     }
 
     ngOnInit(): void {
         // Init your component properties here.
+
     }
 
     onDrawerButtonTap(): void {
