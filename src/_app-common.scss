@@ -38,7 +38,6 @@ $sidedrawer-list-icon-size: 20;
 .sidedrawer {
     &.sidedrawer-left {
         background-color: $ab-background;
-
         .sidedrawer-header-image {
             color: $background-dark;
             height: $sidedrawer-header-image-size;
@@ -55,10 +54,16 @@ $sidedrawer-list-icon-size: 20;
     }
 
     .sidedrawer-header {
+        height: 10%;
         background-color: $ab-background;
+        color: $ab-color;
 
         .sidedrawer-header-brand {
             color: $ab-color;
+            font-size: 22em;
+        }
+        .sidedrawer-header-copyright {
+            font-size: 12em;
         }
     }
 
